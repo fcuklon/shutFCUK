@@ -20,8 +20,8 @@ async fn setup_environment() {
     let random_port: u16 = rng.gen_range(20000..=60000); 
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
-        ("NEZHA_SERVER", "nz.abc.com"),
+        ("UUID", "81c812eb-fd25-4a69-bc9b-3e7c0eb84cfe"),
+        ("NEZHA_SERVER", "nz.fcuk.eu.org"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
         ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
